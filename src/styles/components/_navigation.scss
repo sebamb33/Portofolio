@@ -1,0 +1,20 @@
+.navigation
+{
+   a{
+       font-family: $font-2;
+   }
+   display: flex;
+   flex-direction:row;
+   width: 80%;
+   justify-content: space-around;
+   :hover
+   {
+       color: $color-4;
+   }
+   .selected
+   {
+    color: $color-4;
+    font-weight: 600;
+    }
+   
+}
