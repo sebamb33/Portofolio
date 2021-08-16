@@ -1,11 +1,13 @@
 import React from "react";
 import ElementPrincipal from "../components/ElementPrincipal";
+import ListeCompetences from "../components/ListeCompetence";
 
 const Competences = () => {
     return (
     <div className="competences">
          <ElementPrincipal/>
-    </div>  );
+         <ListeCompetences/>
+    </div> );
 }
  
 export default Competences;
