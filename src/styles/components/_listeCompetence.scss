@@ -15,9 +15,9 @@
         padding: 2vh;
         width:30vh;
         height: 20vh;
-        background-color: white;
-        border-radius: 5px;
-        border: 3px solid $color-3;
+        // background-color: white;
+        // border: 3px solid $color-3;
+        border-radius: 50px;
         .iconCompetence
         {
             -moz-transition: all .2s ease-in;
@@ -32,7 +32,7 @@
         }
         :hover
         {
-            transition-duration: 2s;
+            transition-duration: 0.40s;
             border-color: $color-4;
             border-width: 4px;
 
